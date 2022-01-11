@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "stickaxe",
+  "version": "${version}",
+
+  "name": "Stickaxe",
+  "description": "Adds a stickaxe (stick pickaxe) to the game",
+  "authors": [
+    "Dmcpacks"
+  ],
+  "contact": {
+    "discord": "https://discord.com/invite/ew8kSgxj2U"
+  },
+
+  "license": "GNU-3.0",
+  "icon": "assets/stickaxe/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.dmcpacks.stickaxe.Stickaxe"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
